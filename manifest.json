@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "A simple extension to redirect traffic from minecraft.fandom.com to the maintained minecraft.wiki.",
+    "version": "1.0",
+  
+    "description": "Adds a red border to all webpages matching mozilla.org.",
+  
+    "icons": {
+      "64": "icons/64px.webp"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://minecraft.fandom.com/*"],
+        "js": ["mcwikiredirector.js"]
+      }
+    ]
+  }
+  
