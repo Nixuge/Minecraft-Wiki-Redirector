@@ -1,9 +1,11 @@
 {
     "manifest_version": 2,
-    "name": "A simple extension to redirect traffic from minecraft.fandom.com to the maintained minecraft.wiki.",
+    "name": "Minecraft Wiki Redirector",
     "version": "1.0",
+    "author": "Nixuge",
   
-    "description": "Adds a red border to all webpages matching mozilla.org.",
+    "description": "A simple extension to redirect traffic from minecraft.fandom.com to the maintained minecraft.wiki.",
+    "homepage_url": "https://github.com/Nixuge/Minecraft-Wiki-Redirector",
   
     "icons": {
       "64": "icons/64px.webp"
